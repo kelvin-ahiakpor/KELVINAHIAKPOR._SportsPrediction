@@ -3,6 +3,9 @@
 
 ## Overview
 
+[Interactive App without Video](https://kelvin-fifaregressionapp.streamlit.app)  
+[Interactive App with Video](https://kelvin-fifaregressionappwvideo.streamlit.app)
+
 This project aimed to predict FIFA player ratings using machine learning regression techniques. The objective was to develop a robust model capable of accurately forecasting player ratings based on various attributes.
 
 ## Data Exploration and Understanding
