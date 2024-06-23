@@ -69,8 +69,8 @@ def predict_overall(model, scaler, player_data):
 def main():
     st.title('FIFA Player Rating Predictor')
 
-    # Video link at the top
-    st.video('https://github.com/kelvin-ahiakpor/KELVINAHIAKPOR._SportsPrediction8/blob/main/Kelvin%20Fifa%20Regression%20DEMO.mp4')
+    # Link to the video
+    st.markdown("[Watch the demo video](https://github.com/kelvin-ahiakpor/KELVINAHIAKPOR._SportsPrediction8/blob/main/Kelvin%20Fifa%20Regression%20DEMO.mp4)")
 
     # Load model and scaler
     model = load_model()
