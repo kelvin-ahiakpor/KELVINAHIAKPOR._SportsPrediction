@@ -1,3 +1,11 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import pickle as pkl
+from dill import loads
+from sklearn.preprocessing import StandardScaler
+from pathlib import Path
+
 def main():
     st.title('FIFA Player Rating Predictor')
 
