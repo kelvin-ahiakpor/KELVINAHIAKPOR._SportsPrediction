@@ -24,12 +24,12 @@ def load_parts(prefix, src):
 
 # Load the trained model
 def load_model():
-    model = load_parts("FifaRandomForestRegressor-", "/path/to/models/")
+    model = load_parts("FifaRandomForestRegressor-", "./models/")
     return model
 
 # Load the scaler
 def load_scaler():
-    scaler_path = "/path/to/scaler.pkl"
+    scaler_path = "./scaler.pkl"
     with open(scaler_path, "rb") as scaler_file:
         scaler = pkl.load(scaler_file)
     return scaler
